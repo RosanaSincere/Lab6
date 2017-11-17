@@ -33,21 +33,14 @@
 	<h3 class="center">rsincere@hawk.iit.edu</h3>
 	<div id="container">
 		<input id="entryinput" type="text" name="textentry" placeholder="Enter a Message">
-		<div id="entrybutton" onclick = popUp()>Alert Me</div>
+		<div id="entrybutton" onclick="change">Alert Me</div>
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	
 	<script type="text/javascript"> 
-	document.addEventListener("click", popUp, false);
-		
-        function popUp() {
-            alert("Rosana", A);
-        }
-
-		function myFunction() {
-		var A = document.getElementById("entryinput").value;
-		document.getElementById("textoutput").innerHTML = x;
-}
+	 	function change(){
+		document.getElementById("textoutput").innerHTML = "Hello World";
+		}
 	</script>
 
 	</body>
